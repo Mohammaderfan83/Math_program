@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(../fonts/Vazir-Medium.ttf);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    margin-top: 50px;
+    /* max-width: 280px; */
+    background-color: #74bacd;
+    border-radius: 15px;
+    font-family: 'vazir' !important;
+  }
+  .hader {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px;
+  }
+  .hader p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #706b6b;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  form input {
+    width: 80%;
+    margin: 0 40px;
+    height: 25px;
+    outline: none;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: 'vazir';
+  }
+
+  form button{ 
+    font-family: 'vazir';
+    height: 50px;
+    width: 80%;
+    background-color: rgba(17, 17, 226, 0.562);
+    color: #ffffff;
+    font-size: 17px;
+  }
+  form span {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #706b6b;
+    margin: 20px;
+  }
+  form span a {
+    text-decoration: none;
+    color: rgba(36, 36, 207, 0.671);
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width:550px) {
+    .login{
+      width: 85%;
+      height: 80%;
+    }
+  }
+  
+  #result{
+    font-family: 'vazir' !important;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 18px;
+    margin-top: -16px;
+  }
+  h3{
+    font-family: 'vazir';
+  }
+  #functionInput:focus,#func:focus{
+    direction: ltr;
+  }

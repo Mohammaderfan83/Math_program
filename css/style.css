@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'titr';
+    src: url('../fonts/STITRBD.TTF');
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir-Medium.ttf');
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: 100vh;
+}
+
+.card {
+    width: 245px;
+    height: 430px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  }
+  
+  .card__content {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+  }
+  /* From Uiverse.io by mi-series */ 
+.btn {
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 2em;
+    justify-content: space-between;
+    background: #40B3A2;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'vazir';
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: .95;
+  }
+  
+  .btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+  }
+  .container{
+    text-align: center;
+  }
+  .internal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    font-family: 'titr' !important;
+  }
+  .title{
+    color: white;
+    font-family: 'vazir';
+    direction: rtl;
+  }
+  .footer{
+    margin-top: 20px;
+    color: rgb(16, 44, 71);
+    font-size: 15px;
+    font-family: 'vazir';
+  }
+  .footer a{
+    text-decoration: none;
+    color: blue;
+  }
+  .tag{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+ 
+.container {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  /* background-color: lightblue; */
+  background-image: radial-gradient(black 55%, #0000),
+    /* radial-gradient(black 55%, #0000), */
+      linear-gradient(
+        135deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        indigo,
+        deeppink
+      );
+  background-size: 100% 0.5%, contain;
+  /* background-blend-mode: hard-light; */
+  /* background-position: 0 0, 1em 1em, 0 0; */
+}
+
+
+
+@media screen and (max-width:550px) 
+{
+  .card{
+    width: 85%;
+    height: 70%;
+  }
+  .btn{
+    width: 80%;
+    font-size: 15px;
+  }
+}
+
+
+  

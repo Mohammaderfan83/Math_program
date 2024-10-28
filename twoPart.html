@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روش دوبخشی</title>
+    <link rel="stylesheet" href="css/twoPart.css">
+</head>
+<body>
+    <div class="login">
+        <div class="hader">
+            <span>روش دوبخشی</span>
+        </div>
+        <form id="bisectionForm">
+            <input type="text" placeholder="مثال: Math.cos(x) + x**2 - x" required="" id="functionInput"  />
+            <input type="text" placeholder="بازه شروع" required="" id="aInput" />
+            <input type="text" placeholder="بازه پایان" required="" id="bInput" />
+            <input type="text" placeholder="میزان دقت" required="" id="toleranceInput" step="any" />
+            <button type="button" onclick="calculateRoot()">محاسبه ریشه</button>
+            <span><a href="index.html">محاسبه با روش های دیگر</a></span>
+            <p id="result"></p>
+        </form>
+    </div>
+    
+
+    <script src="js/twoPart.js"></script>
+</body>
+</html>

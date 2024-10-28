@@ -17,7 +17,7 @@ body{
 }
 
 .card {
-    width: 245px;
+    width: 275px;
     height: 430px;
     border-radius: 20px;
     padding: 5px;
@@ -90,7 +90,10 @@ body{
     direction: rtl;
   }
   .footer{
-    margin-top: 20px;
+    border-radius:15px ;
+    padding: 5px;
+    background-color: white;
+    margin-top: 25px;
     color: rgb(16, 44, 71);
     font-size: 17px;
     font-family: 'vazir';

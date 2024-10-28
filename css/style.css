@@ -8,6 +8,7 @@
 }
 
 body{
+  background-image: url('../images/back.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +92,7 @@ body{
   .footer{
     margin-top: 20px;
     color: rgb(16, 44, 71);
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'vazir';
   }
   .footer a{
@@ -134,7 +135,7 @@ body{
 {
   .card{
     width: 85%;
-    height: 70%;
+    height: 60%;
   }
   .btn{
     width: 80%;

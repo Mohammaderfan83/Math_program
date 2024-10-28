@@ -3,6 +3,7 @@
     src: url(../fonts/Vazir-Medium.ttf);
 }
 body{
+  background:url('../images/back.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +76,8 @@ body{
   
   @media screen and (max-width:550px) {
     .login{
-      width: 85%;
-      height: 80%;
+      width: 80%;
+      height: 70%;
     }
   }
   

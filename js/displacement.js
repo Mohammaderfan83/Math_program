@@ -32,7 +32,7 @@ function calculateRoot() {
     if(func && start && end && epsilon){
         falsePositionMethod(func, start, end, epsilon);
     }else{
-        alert('لطفا تمامی فیلدها را کامل کنید')
+        alert('لطفا تمامی فیلدها را کامل کنید');
     }
 
     

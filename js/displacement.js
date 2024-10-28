@@ -4,7 +4,7 @@ function falsePositionMethod(func, start, end, epsilon) {
     const f = new Function("x", "return " + func);
 
     if (f(start) * f(end) >= 0) {
-        document.getElementById("result").innerText = "مقدار تابع در شروع و پایان بازه باید دارای علامت‌های مخالف باشد.";
+        document.getElementById("result").innerText = "تابع در بازه مشخص شده فاقد ریشه می باشد";
         return;
     }
 
